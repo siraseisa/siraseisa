@@ -1,23 +1,20 @@
 ---
-name: Bob
-title: Full Stack Developer / Technical Writer
+name: 白瀬いさ
+title: siraseisa
 ---
 
-## About Me
+## プロフィール
 
-Passionate about technology, focusing on Web development and security research. Sharing technical insights, study notes, and project experiences here.
+瀬戸内海とその周辺 日記や写真、とりとめのないこと
 
-## Technical Skills
+## 興味のあること
 
-- JavaScript / TypeScript
-- React / Vue
-- Node.js
-- Python
-- Web Security
+- 随筆、エッセイ
+- 日記
+- 写真
+- 小説
 
 ## Contact
 
-Feel free to reach out to me via:
-- Email: contact@example.com
-- GitHub: github.com/example
-- Twitter: @example
+- Email: siraseisa@gmail.com
+- Twitter: @siraseisa
