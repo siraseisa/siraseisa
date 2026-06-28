@@ -1,7 +1,7 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = 'Zen Theme Blog';
+export const SITE_TITLE = 'siraseisa Blog';
 export const SITE_DESCRIPTION = 'A clean, modern blog theme with excellent readability and beautiful typography.';
 export const AUTHOR_NAME = 'Bob';
 export const AUTHOR_TITLE = 'Full Stack Developer / Technical Writer';
