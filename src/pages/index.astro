@@ -56,6 +56,16 @@ const formatDate = (date: Date) => {
 				box-shadow: 0 8px 30px rgba(59, 130, 246, 0.2);
 			}
 
+            .intro-samune {
+            	width: 96px;          /* 横幅は元のサイズをキープ（お好みで120px等に広げてもOK） */
+            	height: 96px;         /* 👈 縦幅をautoにして、画像の本来の比率を保つ */
+            	border-radius: 50%;   /* 👈 50%（正円）を維持 */
+            	object-fit: cover;
+            	border: none;         /* 👈 グラデーションの枠線を消す */
+            	background: none;     /* 👈 グラデーションの背景を消す */
+            	box-shadow: none;     /* 👈 下の影を消す（残したい場合はこの行は不要です） */
+            }
+
 			.intro-content {
 				flex: 1;
 				min-width: 0;
@@ -241,8 +251,8 @@ const formatDate = (date: Date) => {
 			<section class="intro-section">
 				<div class="avatar-wrapper">
 					<img
-						class="intro-avatar"
-						src="/avatar.svg"
+						class="intro-samune"
+						src="/samune.png"
 						alt="Avatar"
 					/>
 				</div>

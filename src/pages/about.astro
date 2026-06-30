@@ -30,7 +30,19 @@ const renderedContent = aboutContent ? marked(aboutContent.body) : '';
 				background: linear-gradient(135deg, var(--accent), #8b5cf6) padding-box,
 							linear-gradient(135deg, var(--accent), #8b5cf6) border-box;
 				box-shadow: 0 8px 30px rgba(59, 130, 246, 0.2);
-			}
+            }
+
+            .about-samune {
+            	width: 120px;          /* 横幅は元のサイズをキープ（お好みで120px等に広げてもOK） */
+            	height: 120px;         /* 👈 縦幅をautoにして、画像の本来の比率を保つ */
+            	border-radius: 50%;   /* 👈 50%（正円）に変更 */
+                object-fit: cover;
+                margin: 0 auto 1.5rem;
+            	border: none;         /* 👈 グラデーションの枠線を消す */
+            	background: none;     /* 👈 グラデーションの背景を消す */
+            	box-shadow: none;     /* 👈 下の影を消す（残したい場合はこの行は不要です） */
+            }
+
 			.about-title {
 				text-align: center;
 				font-size: 1.75rem;
@@ -166,8 +178,8 @@ const renderedContent = aboutContent ? marked(aboutContent.body) : '';
 				{aboutContent && (
 					<>
 						<img 
-							class="about-avatar" 
-							src="/avatar.svg"
+							class="about-samune" 
+							src="/samune.png"
 							alt="Avatar"
 						/>
 						<h1 class="about-title">{aboutContent.data.name}</h1>

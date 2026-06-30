@@ -16,5 +16,5 @@ title: siraseisa
 
 ## Contact
 
-- Email: siraseisa@gmail.com
-- Twitter: @siraseisa
+- Email: siraseisa(@gmail.com)
+- Twitter(X): [@siraseisa](https://x.com/siraseisa)
