@@ -18,3 +18,7 @@ title: siraseisa
 
 - Email: siraseisa(@gmail.com)
 - Twitter(X): [@siraseisa](https://x.com/siraseisa)
+
+## Links
+
+- Astro(Static Site Genarator) Theme: [Zen](https://github.com/Secd0g/zen)

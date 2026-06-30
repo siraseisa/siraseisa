@@ -8,8 +8,8 @@ export const AUTHOR_TITLE = '白瀬いさの個人サイトです';
 export const AUTHOR_DESCRIPTION = '瀬戸内海とその周辺 日記や写真、とりとめのないこと';
 
 export const SOCIAL_LINKS = {
-  github: 'https://github.com/siraseisa',
-  twitter: 'https://twitter.com/siraseisa',
+  github: '',
+  twitter: '',
   linkedin: '',
-  email: 'mailto:siraseisa@gmail.com',
+  email: '',
 };
