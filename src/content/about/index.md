@@ -1,6 +1,6 @@
 ---
 name: 白瀬
-title:
+title: siraseisa
 ---
 
 ## プロフィール
