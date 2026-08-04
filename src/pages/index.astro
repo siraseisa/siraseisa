@@ -9,7 +9,7 @@ const allPosts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 
-const recentPosts = allPosts.slice(0, 10);
+const recentPosts = allPosts.slice(0, 5);
 
 const formatDate = (date: Date) => {
 	const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
