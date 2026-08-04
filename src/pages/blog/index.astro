@@ -224,12 +224,11 @@ const formatDate = (date: Date) => {
 	<body>
 		<Header />
 		<main>
-			<section class="archive-container">
+		<section class="archive-container">
 				{
-					sortedYears.map((year) => (
-						<div class="year-section" id={`year-${year}`} key={year}>
+					sortedMonths.map((monthKey) => (
+						<div class="year-section" id={`month-${monthKey}`}>
 							<h2 class="year-title">
-								{/* "2026-08" を "2026年 08月" の見出し表示に変換 */}
 								{monthKey.replace('-', '年 ')}月
 								<span class="year-count">{groupedPosts[monthKey].length} posts</span>
 							</h2>
