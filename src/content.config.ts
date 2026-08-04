@@ -7,9 +7,12 @@ const blog = defineCollection({
 	schema: ({ image }) =>
 		z.object({
 			title: z.string(),
+			description: z.string(), // Description用に追加
 			pubDate: z.coerce.date(),
 			updatedDate: z.coerce.date().optional(),
 			tags: z.array(z.string()).optional(),
+			heroImage: z.string().optional(), // OGP・アイキャッチ画像用に追加
+			image: z.string().optional(),     // 予備用に追加
 		}),
 });
 
