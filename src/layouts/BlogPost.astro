@@ -9,12 +9,12 @@ interface Props extends CollectionEntry<'blog'>['data'] {
   headings: MarkdownHeading[];
 }
 
-const { title, description, pubDate, updatedDate, headings, tags } = Astro.props;
+const { title, description, pubDate, updatedDate, headings, tags , image, heroImage } = Astro.props;
 ---
 
 <html lang="ja">
   <head>
-    <BaseHead title={title} description={description} date={pubDate} />
+    <BaseHead title={title} description={description} date={pubDate} image={image || heroImage} />
     <style is:global>
       :root {
         --accent: #F97316;
@@ -49,7 +49,6 @@ const { title, description, pubDate, updatedDate, headings, tags } = Astro.props
       html {
         scroll-behavior: smooth;
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "BIZ UDPGothic", "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
-        /* font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; */
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;
       }
